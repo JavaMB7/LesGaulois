@@ -1,7 +1,5 @@
 package village;
 
-import java.util.Arrays;
-
 import personnages.Chef;
 import personnages.Gaulois;
 
