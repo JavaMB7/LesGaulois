@@ -1,5 +1,4 @@
-import personnages.Equipement;
-import personnages.Gaulois;
+package personnages;
 
 public class Trophee {
 

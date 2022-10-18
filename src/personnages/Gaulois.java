@@ -52,6 +52,18 @@ public class Gaulois {
 		parler("Merci Druide, je sens que ma force est " + effetPotion + " fois décuplée");
 	}
 	
+	public void faireUneDonation(Musee musee) {
+		if(trophees != null) {
+			parler("Je donne au musee tous mes trophees :");
+			int i =0;
+			while(trophees[i] != null) {
+				System.out.println("\n-" + trophees[i]);
+				musee.donnerTrophees(this, trophees[i]);
+				i++;
+			}
+		}
+	}
+	
 	public static void main(String[] args) {
 		Gaulois asterix = new Gaulois("Astérix", 8);
 		asterix.boirePotion(7);
