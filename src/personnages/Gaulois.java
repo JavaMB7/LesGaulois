@@ -57,7 +57,7 @@ public class Gaulois {
 			parler("Je donne au musee tous mes trophees :");
 			int i =0;
 			while(trophees[i] != null) {
-				System.out.println("\n-" + trophees[i]);
+				System.out.println("-" + trophees[i] +"\n");
 				musee.donnerTrophees(this, trophees[i]);
 				i++;
 			}
